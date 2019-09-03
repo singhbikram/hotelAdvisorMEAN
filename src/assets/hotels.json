@@ -1,0 +1,135 @@
+{"data":[
+    {
+        "amenities": [
+            "wifi",
+            "pool"
+        ],
+        "_id": "5d65a5af6d616262683063b3",
+        "name": "HolidayInn",
+        "city": "Fremont",
+        "state": "CA",
+        "averagePrice": "$300"
+    },
+    {
+        "amenities": [
+            "wifi",
+            "pool",
+            "phone",
+            "breakfast"
+        ],
+        "_id": "5d65a63e6d616262683063b4",
+        "name": "Hilton",
+        "city": "Fremont",
+        "state": "CA",
+        "averagePrice": "$350"
+    },
+    {
+        "amenities": [
+            "Wifi",
+            "pool",
+            "spa",
+            "sauna"
+        ],
+        "_id": "5d65ab520b6691423c36a26d",
+        "name": "Hyatt",
+        "city": "Fremont",
+        "state": "CA",
+        "averagePrice": "$400",
+        "__v": 0
+    },
+    {
+        "amenities": [
+            "Wifi",
+            "pool"
+        ],
+        "_id": "5d65b2e437b8a51394a37038",
+        "name": "WestWestern",
+        "city": "San Jose",
+        "state": "CA",
+        "averagePrice": "$450",
+        "__v": 0
+    },
+    {
+        "amenities": [
+            "Wifi",
+            "pool",
+            "all"
+        ],
+        "_id": "5d65b37437b8a51394a37039",
+        "name": "Fairmont",
+        "city": "San Jose",
+        "state": "CA",
+        "averagePrice": "$850",
+        "__v": 0
+    },
+    {
+        "amenities": [
+            "Wifi",
+            "pool",
+            "all"
+        ],
+        "_id": "5d65b3b637b8a51394a3703a",
+        "name": "MomPop",
+        "city": "San Jose",
+        "state": "CA",
+        "averagePrice": "$650",
+        "__v": 0
+    },
+    {
+        "amenities": [
+            "Wifi"
+        ],
+        "_id": "5d65b462e452662d88333533",
+        "name": "PeterSap",
+        "city": "San Jose",
+        "state": "CA",
+        "averagePrice": "$650",
+        "__v": 0
+    },
+    {
+        "amenities": [
+            "Wifi"
+        ],
+        "_id": "5d65b50741f7f137f024b863",
+        "name": "Gillfest",
+        "city": "San Jose",
+        "state": "CA",
+        "averagePrice": "$650",
+        "__v": 0
+    },
+    {
+        "amenities": [
+            "Wifi",
+            "newitemAdded"
+        ],
+        "_id": "5d65b548c015802ec060336f",
+        "name": "JackPeterson",
+        "city": "San Jose",
+        "state": "CA",
+        "averagePrice": "$650",
+        "__v": 1
+    },
+    {
+        "amenities": [
+            "Wifi"
+        ],
+        "_id": "5d65b77f632f6e2418ae1b20",
+        "name": "RepatorKemp",
+        "city": "San Jose",
+        "state": "CA",
+        "averagePrice": "$650",
+        "__v": 0
+    },
+    {
+        "amenities": [
+            "Wifi"
+        ],
+        "_id": "5d65b7cd90cf2824644c07eb",
+        "name": "RepatorKemp",
+        "city": "San Jose",
+        "state": "CA",
+        "averagePrice": "$650",
+        "__v": 0
+    }
+]
+}

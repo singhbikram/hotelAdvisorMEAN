@@ -1,0 +1,18 @@
+<br>
+<H3>Reviews</H3>
+<div *ngFor="let review of reviews">
+    <div class="card">
+        <div class="card-header" style="background-color: aqua">
+            {{review.title}}
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">{{review.description}}</p>
+            <p>Service Rating : {{review.serviceRating}}</p>
+            <p>Location Rating : {{review.locationRating}}</p>
+            <p>Overall Rating : {{review.overAllRating}}</p>
+            <a href="#" class="btn btn-primary">Like it</a>
+        </div>
+    </div>
+    <br>
+</div>

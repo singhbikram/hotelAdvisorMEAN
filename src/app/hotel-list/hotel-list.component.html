@@ -1,0 +1,38 @@
+
+<H2>List of Hotels</H2>
+<form>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" [(ngModel)]="City" [ngModelOptions]="{standalone: true}" placeholder="search hotel by City">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" [(ngModel)]="Price" [ngModelOptions]="{standalone: true}" placeholder="  Search Max Price">
+    </div>
+  </div>
+</form>
+<br>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">No.</th>
+      <th scope="col">Name</th>
+      <th scope="col">City</th>
+      <th scope="col">State</th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody >
+    <tr *ngFor="let hotel of hotels | cityFilter: City : Price; index as i">
+
+      <td>{{ i + 1 }}</td>
+      <td scope="row"><a [routerLink] = '["/hotelDetail", hotel._id]'>{{hotel.name}}</a></td>
+      <input type=hidden value={{hotel._id}} />
+      <!-- <router-outlet> </router-outlet> -->
+      <td>{{hotel.city}}</td>
+      <td>{{hotel.state}}</td>
+      <td>{{hotel.averagePrice}}</td>
+    </tr>
+  </tbody>
+</table>
+
+

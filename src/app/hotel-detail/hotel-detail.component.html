@@ -1,0 +1,24 @@
+<mat-card style="max-width: 600px">
+    <mat-card-header>
+        <div mat-card-avatar style="background-image: url('https://banner2.kisspng.com/20180204/pgw/kisspng-hotel-motel-gratis-clip-art-hotel-png-picture-5a77d69da3e7d5.0863228015178031656714.jpg');
+        background-size: cover;"></div>
+        <mat-card-title>Name : {{hotel.name}} [{{hotel._id}}]</mat-card-title>
+        <mat-card-subtitle>Best Hotel in California</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src = "https://cdn.hotelplanner.com/Common/Images/_HotelPlanner/Home-Page/fade/sld6.jpg" alt = "best hotel">
+    <mat-card-content>
+        <p>
+            Lorem ipsum lacus bibendum elementum urna tellus varius, nec fringilla molestie 
+            rutrum urna bibendum torquent potenti, per ac sapien dictumst commodo eget luctus 
+            malesuada suscipit bibendum posuere nisi dictumst bibendum faucibus quam arcu hac.
+            
+        </p>
+        <p><b>Enjoy</b> : {{hotel.amenities}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+        <button mat-button [routerLink] = '["/review", hotel._id]'>Write a Review</button>
+    </mat-card-actions>
+    <app-review-list [hotelId]=hotel._id ></app-review-list>
+</mat-card>

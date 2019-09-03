@@ -1,0 +1,45 @@
+
+<div style="background-color: aquamarine">
+    <div class="container">
+    <h3>Review Form</h3>
+     <form id="reviewForm" [formGroup]="review" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <input style="width:40%" class="form-control" type="text" formControlName="title" placeholder="title" id="title"/>
+        </div>
+        <div class="form-group">
+          <textarea style="width:40%" class="form-control" id="description" formControlName="description" placeholder="what do you want to say ..." rows="3"></textarea>
+          <!-- <input style="width:40%" class="form-control" type="textarea" placeholder="description" id="description"/> -->
+        </div>
+        <div class="form-group" style="width:40%">
+            <label for="locationRating">LocationRating</label>
+            <select id="inputLocationRating" class="form-control" formControlName="locationRating">
+              <option selected>Pick One</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+        </div>
+        <div class="form-group" style="width:40%">
+            <label for="serviceRating">ServiceRating</label>
+            <select id="inputServiceRating" class="form-control" formControlName="serviceRating">
+              <option selected>Pick One</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+        </div>
+       
+        <br>
+        <button type="submit" [disabled]="!review.valid">Submit</button>
+        <!-- <div class="form-group">
+            <input class="button" type="button" id="submit" value="Submit" >
+        </div> -->
+  
+    </form>    
+      <!-- Container div -->
+    </div> 
+  </div>
